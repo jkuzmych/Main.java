@@ -1,0 +1,15 @@
+.rounded {
+  border-radius: 50%;
+}
+.gallery {
+  text-align: center;
+}
+
+.gallery img {
+  max-width: 20rem;
+  max-height: 20rem;
+  vertical-align: middle;
+  border: #ffabea solid 2px;
+  box-shadow: 0.4em 0.4em 30px #61535d;
+  margin:2rem;
+}

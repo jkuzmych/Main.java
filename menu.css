@@ -1,0 +1,28 @@
+
+ .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e2130;
+ }
+.menu li {
+  float:left;
+}
+
+.menu  a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  cursor:pointer;
+}
+.menu a:hover {
+  background: #2d455d;
+}
+@media (max-width: 768px) {
+  .menus a {
+    float: none;
+    width: 100%;
+  }
+}
